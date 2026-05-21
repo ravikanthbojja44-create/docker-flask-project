@@ -1,7 +1,23 @@
 # Docker Flask Project
 
-Simple Flask application containerized using Docker and Docker Compose.
+A simple Flask web application containerized using Docker and Docker Compose.
 
-## Run Project
+## Technologies Used
+- Python
+- Flask
+- Docker
+- Docker Compose
 
+## Project Structure
+
+docker-project/
+│── app.py
+│── requirements.txt
+│── Dockerfile
+│── docker-compose.yml
+│── README.md
+
+## Build and Run
+
+```bash
 docker-compose up --build
